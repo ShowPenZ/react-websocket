@@ -1,6 +1,6 @@
 {
-  "name": "react-simpleWS",
-  "version": "2.1.0",
+  "name": "react-websocket",
+  "version": "2.0.1",
   "description": "simple websocket for React",
   "main": "dist/Websocket.min.js",
   "scripts": {
