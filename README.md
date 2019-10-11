@@ -31,7 +31,6 @@ export default class Example extends React.Component {
     const that = this;
 
     //get the data from ws
-
     that.setState({
       wsData: data
     });
