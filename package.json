@@ -1,0 +1,45 @@
+{
+  "name": "react-simpleWS",
+  "version": "1.0.0",
+  "description": "simple websocket for React",
+  "main": "dist/Websocket.min.js",
+  "scripts": {
+    "build": "bili --env.NODE_ENV production",
+    "release:major": "npm version major && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:patch": "npm version patch && npm publish"
+  },
+  "keywords": [
+    "websocket",
+    "react"
+  ],
+  "author": "ShowPenZ",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "babel-eslint": "^10.0.1",
+    "bili": "^4.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-alloy": "^2.0.2",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.0"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "less": "^3.9.0"
+  }
+}
