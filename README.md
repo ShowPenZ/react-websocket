@@ -1,19 +1,19 @@
-# react-simpleWS
+# react-simple-websocket
 
 > A simple websocket component for React
 
 ## Installation
 
 ```
-$ npm install react-simpleWS --save
-$ yarn add react-simpleWS 
+$ npm install react-simple-websocket --save
+$ yarn add react-simple-websocket
 ```
 
 ## Usage
 
 ``` react
 import React from 'react';
-import SimpleWS from 'react-simpleWS';
+import SimpleWS from 'react-simple-websocket';
 
 export default class Example extends React.Component {
   constructor(props) {
