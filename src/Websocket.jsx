@@ -35,7 +35,7 @@ class Websocket extends React.Component {
 
     that.reconnectFailureTimes = 0;
     that.reconnectTimer = null;
-    that.needReconnet = null;
+    that.needReconnet = true;
   }
 
   componentDidMount() {
@@ -87,8 +87,7 @@ class Websocket extends React.Component {
         onClose(code, reason, wasClean);
       }
 
-      if (reconnect) {
-        that.needReconnet = true;
+      if (reconnect && that.needReconnet) {
         that.reconnectFailureTimes++;
 
         if (that.reconnectFailureTimes < 3) {
