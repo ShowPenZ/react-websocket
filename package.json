@@ -1,6 +1,6 @@
 {
   "name": "react-simple-websocket",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "simple websocket for React",
   "main": "dist/Websocket.min.js",
   "scripts": {
